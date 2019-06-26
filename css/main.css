@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#ffffff;
+}
+.nav-link,
+.navbar-brand {
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+}
+.nav-link {
+	margin-right: 1em !important;
+	color: black;
+	font-family: futura-pt,sans-serif;
+	text-transform: uppercase;
+	font-size: .7rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-align: left;
+}
+.nav-link:hover {
+  color: #e59fa3;
+}
+.navbar-collapse {
+  justify-content: flex-end; 
+}
