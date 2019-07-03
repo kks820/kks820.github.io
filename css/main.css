@@ -30,7 +30,7 @@ body {
 
 /*---- landing ----*/
 .landing {
-  background: url('../resources/beach3.jpg') no-repeat fixed;
+  background: url('../resources/beach.jpg') no-repeat fixed;
   background-size: cover;
   min-height: 630px;
   position: relative;
@@ -49,9 +49,9 @@ body {
   border-left: 5px solid #e59fa3;
   padding: 15px 40px;
   color: #fff;
-  margin-top: 12em;
+  margin-top: 9em;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */  
+  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */  
 }
 
 .banner-text h2, .banner-text p {
