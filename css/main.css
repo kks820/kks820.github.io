@@ -69,15 +69,22 @@ body {
   margin-right: auto;
 }
 
-/*
+
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .landing {
     background-attachment: scroll;
   }
 }
-*/
+
 
 /*--- about ------*/
+
+.about {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 96px 32px;
+}
+
 .title-text {
   font-family: "futura-pt", sans-serif;
   font-size: 42px;
