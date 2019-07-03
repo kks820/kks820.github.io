@@ -69,11 +69,13 @@ body {
   margin-right: auto;
 }
 
+/*
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
 }
+*/
 
 /*--- about ------*/
 .title-text {
@@ -84,4 +86,9 @@ body {
   letter-spacing: 0px;
   font-weight: 300;
   font-style: normal;
+}
+
+.slogan {
+  align-items: center;
+
 }
