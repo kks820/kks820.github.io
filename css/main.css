@@ -1,5 +1,14 @@
 body {
   height: 100%;
+  position: relative;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+}
+.section {
+  margin-top: 8em;
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -20,13 +29,23 @@ body {
 	font-weight: 400;
 	letter-spacing: 2px;
 	text-align: left;
+  transition: all 0.2s ease-in-out;
 }
-.nav-link:hover {
+.nav-link:hover, 
+.nav-link:active {
   color: #e59fa3;
 }
 .navbar-collapse {
   justify-content: flex-end; 
 }
+
+.nav-link.active>a:hover {
+  color: #e59fa3;
+}
+.nav-link.active>a:active {
+  color: #e59fa3;
+}
+
 
 /*---- landing ----*/
 .landing {
@@ -64,11 +83,6 @@ body {
   font-family: 'Satisfy', cursive;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 @media only screen and (max-device-width: 1366px) {
   .landing {
@@ -85,6 +99,12 @@ body {
   padding: 96px 32px;
 }
 
+.about > container {
+  background: url('../resources/pinkwave1.png') no-repeat fixed;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
 .title-text {
   font-family: "futura-pt", sans-serif;
   font-size: 42px;
@@ -93,9 +113,12 @@ body {
   letter-spacing: 0px;
   font-weight: 300;
   font-style: normal;
+  display: inline-block;
+  background: url('../resources/pinkwave2_big.png') fixed;
+  background-size: contain;
+  background-attachment: scroll;
 }
 
 .slogan {
   align-items: center;
-
 }
